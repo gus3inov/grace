@@ -13,6 +13,7 @@
     <meta name="keywords" content="салон красоты, салон красоты в махачкале, салон красоты инстаграм, салон красоты парикмахерская, салон красоты фото, салон красоты бар, grace, грейс, махачкала" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="stylesheet" href="assets/css/custom.css" />
+    <link rel="stylesheet" href="assets/css/jquery.fullpage.css" />
     <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 
     <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
@@ -25,23 +26,20 @@
   <body>
 
     <!-- Page Wrapper -->
-      <div id="page-wrapper">
-
-        <!-- Wrapper -->
-          <div id="wrapper">
-
-            <!-- Panel (Banner) -->
-              <section class="panel banner right">
-                <div class="content color0 span-3-75">
+      <main id="page-wrapper">
+         <section data-anchor="slide1" class="pannel pannel-1 vertical-scrolling">
+                <div class="content">
                   <!-- <h1 class="major">Hello, my name<br />
                   is Ethereal</h1> -->
                   <a class="logo"><img src="images/logo.svg"></a>
-                  <p>
+                  <div class="content-info">
+                      <p>
                    Концептуальный салон красоты <strong>Grace</strong> — <strong>красота со смыслом.</strong><br>
                    Мы чутко выслушаем вас, определим запрос, найдем идеи, решения и подход, чтобы раскрыть Вашу природную женскую красоту. И только после приступим к работе.<br><br>
                    Чтобы заказать бесплатную консультацию и диагностику – позвоните нам по телефону. Наши работы смотрите в Instagram
                   </p>
-                  <p>
+                  </div>
+                  <div>
                     <ul class="actions">
                       <li>
                         <a href="tel:89674040565" class="button special color2" onclick="yaCounter46761729.reachGoal('1p_phone'); return true;" ><i class="icon fa-phone"></i> 8 967 404-05-65</a>
@@ -50,7 +48,7 @@
                         <a href="https://www.instagram.com/grace_bes/" target="_blank" class="button" onclick="yaCounter46761729.reachGoal('1p_inst'); return true;"><i class="icon fa-instagram"></i> grace_bes</a>
                       </li>
                     </ul>
-                  </p>
+                  </div>
 <!--                  <ul class="actions">
                     <li><a href="tel:89674040565" class="button">8 967 404-05-65</a></li>
                   </ul> -->
@@ -60,9 +58,9 @@
                 </div>
               </section>
 
-            <!-- Panel (Spotlight) -->
-              <section class="panel spotlight medium right" id="first">
-                <div class="content span-7">
+                     <section class="pannel pannel-2 vertical-scrolling" id="first">
+                   
+                <div class="content">
                   <h2 class="major">Для кого мы</h2>
                   <p>Наши гости не идут к именитому мастеру и к его «славе» — они приходят за безупречным результатом, продуманным сервисом и индивидуальным подходом. Эти три критерия лежат в основе всего, что мы делаем.</p>
                   <p>Мы видим нашу гостью как человека с разносторонними интересами, привыкшую добиваться успеха во всем, чего бы она не делала: от воспитания детей, до ведения бизнеса. Именно требовательный к себе человек сможет по достоинству оценить ту планку, которую мы установили для себя.</p>
@@ -74,14 +72,10 @@
                     </ul>
                   </p>
                 </div>
-                <div class="image filtered tinted" data-position="top left">
-                  <img src="images/pic02.jpg" alt="" />
-                </div>
               </section>
 
-            <!-- Panel (Spotlight) -->
-              <section class="panel spotlight large left">
-                <div class="content span-5">
+                 <section class="pannel pannel-3 vertical-scrolling">
+                <div class="content">
                   <h2 class="major">Почему мы</h2>
                   <p>Мы организовали пространство, на котором профессионалы без лишних слов, смогут улучшить Ваш внешний облик, не перекраивая образ под шаблоны и клише. Задача номер один — сохранить изюминку и искру в женщине, сделать ее еще более привлекательной, оставив самой собой.</p>
                   <p>Золотым стандартом продуктов, на которых работают наши специалисты является экологичность и стерильность. Благодаря чему мы можем гарантировать качественный результат без вреда для здоровья наших гостей.</p>
@@ -91,84 +85,15 @@
                     <li><a href="#form_mobile" class="button special color2 button_mobile">Записаться</a></li>
                     <li><a href="files/price.pdf" class="button" onclick="yaCounter46761729.reachGoal('price'); return true;" target="_blank">Прайс-лист</a></li>
                 </div>
-                <div class="image filtered tinted" data-position="top right">
-                  <img src="images/pic03.jpg" alt="" />
-                </div>
+
               </section>
 
-            <!-- Panel -->
-              <section class="panel">
-                <div class="intro color2">
-                  <h2 class="major">Наши работы</h2>
-                  <p>Мода переменчива, а ухоженность, сияние и гармония между внутренним и внешним — вечны.</p>
-                  <p>Мы против чрезмерности, напыщенности и вульгарности. Мы за элегантность, легкость и индивидуальность. Все это вы можете увидеть в наших работах.</p>
-                  <p>Еще больше работ в нашем instagram</p>
-                  <ul class="actions">
-                      <li>
-                        <a href="https://www.instagram.com/grace_bes/" target="_blank" class="button" onclick="yaCounter46761729.reachGoal('work_inst'); return true;"><i class="icon fa-instagram"></i> grace_bes</a>
-                      </li>
-                    </ul>
-                </div>
-                <div class="gallery">
-                  <div class="group span-3">
-                    <a href="images/gallery/fulls/01.jpg" class="image filtered span-3" data-position="bottom"><img src="images/gallery/thumbs/01.jpg" alt="" /></a>
-                    <a href="images/gallery/fulls/02.jpg" class="image filtered span-1-5" data-position="center"><img src="images/gallery/thumbs/02.jpg" alt="" /></a>
-                    <a href="images/gallery/fulls/03.jpg" class="image filtered span-1-5" data-position="bottom"><img src="images/gallery/thumbs/03.jpg" alt="" /></a>
-                  </div>
-                  <a href="images/gallery/fulls/04.jpg" class="image filtered span-2-5" data-position="top"><img src="images/gallery/thumbs/04.jpg" alt="" /></a>
-                  <div class="group span-4-5">
-                    <a href="images/gallery/fulls/05.jpg" class="image filtered span-3" data-position="top"><img src="images/gallery/thumbs/05.jpg" alt="" /></a>
-                    <a href="images/gallery/fulls/06.jpg" class="image filtered span-1-5" data-position="center"><img src="images/gallery/thumbs/06.jpg" alt="" /></a>
-                    <a href="images/gallery/fulls/07.jpg" class="image filtered span-1-5" data-position="bottom"><img src="images/gallery/thumbs/07.jpg" alt="" /></a>
-                    <a href="images/gallery/fulls/08.jpg" class="image filtered span-3" data-position="top"><img src="images/gallery/thumbs/08.jpg" alt="" /></a>
-                  </div>
-                  <a href="images/gallery/fulls/09.jpg" class="image filtered span-2-5" data-position="right"><img src="images/gallery/thumbs/09.jpg" alt="" /></a>
-                </div>
-              </section>
-
-            <!-- Panel -->
-              <section class="panel color4-alt">
-                <div class="intro color4">
-                  <h2 class="major">Контакты</h2>
-                  <p>Приятные тона, мягкий свет и специально подобранный музыкальный ряд создают особую атмосферу в которой каждая гостья сможет расслабиться и почувствовать главной героиней своего преображения.</p>
-                  <p>Приходите к нам на <a target="_blank" href="http://2gis.ru/makhachkala/firm/70000001028285046/center/47.510566,42.977285/zoom/16?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=bigMap">ул. Котрова, 33</a> чтобы убедиться в этом самим.</p>
-                </div>
-                <div class="inner columns divided">
-                  <div class="span-3-25">
-                    <a class="mobile" name="form_mobile"></a>
-                    <script id="bx24_form_inline" data-skip-moving="true">
-                            (function(w,d,u,b){w['Bitrix24FormObject']=b;w[b] = w[b] || function(){arguments[0].ref=u;
-                                    (w[b].forms=w[b].forms||[]).push(arguments[0])};
-                                    if(w[b]['forms']) return;
-                                    s=d.createElement('script');r=1*new Date();s.async=1;s.src=u+'?'+r;
-                                    h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
-                            })(window,document,'https://grace.bitrix24.ru/bitrix/js/crm/form_loader.js','b24form');
-
-                            b24form({"id":"7","lang":"ru","sec":"9c6dj9","type":"inline"});
-                    </script>
-
-                  </div>
-                  <div class="span-1-5">
-                    <ul class="contact-icons color1">
-                      <li class="icon fa-map-marker"><a target="_blank" href="http://2gis.ru/makhachkala/firm/70000001028285046/center/47.510566,42.977285/zoom/16?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=bigMap">г. Махачкала, ул. Котрова, 33</a></li>
-                      <li class="icon fa-phone"><a href="tel:89674040565" onclick="yaCounter46761729.reachGoal('cont_phone'); return true;" >8 967 404-05-65</a></li>
-                      <li class="icon fa-instagram"><a href="https://www.instagram.com/grace_bes/" target="_blank" onclick="yaCounter46761729.reachGoal('cont_inst'); return true;">@grace_bes</a></li>
-                    </ul>
-                  </div>
-                </div>
-              </section>
-              <a class="desktop" name="form_desktop"></a>
-
-            <!-- Copyright -->
-              <div class="copyright"><a href="https://color-it.ru" target="_blank">Создание и продвижение сайтов</a> – Color-IT, 2017.</div>
-
-          </div>
-
-      </div>
+      </main>
 
     <!-- Scripts -->
       <script src="assets/js/jquery.min.js"></script>
       <script src="assets/js/jquery.fullpage.js"></script>
+       <script src="assets/js/jquery.fullpage.extensions.min.js"></script>
       <script src="assets/js/main.js"></script>
 
       <!-- Yandex.Metrika counter -->
