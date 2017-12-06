@@ -6,6 +6,11 @@
 
 (function($) {
 
-	// $('#wrapper').fullpage();
-	
+    $('#page-wrapper').fullpage({
+    sectionSelector: '.vertical-scrolling',
+    slideSelector: '.horizontal-scrolling',
+    navigation: true,
+    parallax: true
+});
+
 })(jQuery);
