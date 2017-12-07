@@ -949,6 +949,25 @@ ul.actions {
 	display: block;
 }
 
+.gallery-2 .col-3 {
+    width: 60%;
+    height: 30%;
+}
+
+.col-6 {
+    width: 60%;
+    height: 100%;
+}
+
+.col-5 {
+    width: 50%;
+    height: 100%;
+}
+
+
+.gallery .modal{
+	position: fixed;
+}
         }
     /* Custom, iPhone Retina */
     @media only screen and (max-width: 320px) {}
