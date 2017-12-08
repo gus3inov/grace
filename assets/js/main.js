@@ -6,7 +6,13 @@
 
 (function($) {
 
-let $wrapper = $('#page-wrapper');
+	let	$window = $(window),
+					$document = $(document),
+					$body = $('body'),
+					$html = $('html'),
+					$bodyHtml = $('body,html'),
+					$wrapper = $('#page-wrapper');
+
 
 	$('.gallery-1')
 					.on('click', 'a', function(event) {
@@ -38,8 +44,7 @@ let $wrapper = $('#page-wrapper');
 						// Set visible.
 							$modal.addClass('visible');
 
-						// Focus.
-							$modal.focus();
+				
 
 						// Delay.
 							setTimeout(function() {
